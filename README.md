@@ -48,7 +48,7 @@ SaveRegisteredFolders(os.path.dirname(__file__)+"\configs\shot.json", registerdF
 ```
 ## Output
 ```json
-{"Name":"Untitled, "Folders":["assets","assets/geo"]}
+{"Name":"Untitled","Folders":["assets","assets/geo"]}
 ```
 ## RegisterFolders
 - directoryToProcess
@@ -60,4 +60,4 @@ SaveRegisteredFolders(os.path.dirname(__file__)+"\configs\shot.json", registerdF
 - outputFolder
   - The directory you want to save the .csv and .json to.
 - dict_
-  - The data returned from ReadCSV in the form of ```dict example: {"Name":"Untitled, "Folders":["assets","assets/geo"]}```
+  - The data returned from ReadCSV in the form of ```dict example: {"Name":"Untitled","Folders":["assets","assets/geo"]}```
